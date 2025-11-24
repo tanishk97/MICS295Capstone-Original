@@ -43,7 +43,7 @@ jobs:
     - name: Trigger CodePipeline (Legacy)
       run: |
         echo "🔄 Triggering legacy CodePipeline..."
-        aws codepipeline start-pipeline-execution --name mics295-pipeline
+        aws codepipeline start-pipeline-execution --name mics295-pipeline-Original
         
     - name: Pipeline Summary
       run: |
